@@ -1,0 +1,14 @@
+.card-container {
+  padding: 0px 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.card-container .card h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0px 20px;
+}
+.card-container .card p {
+  padding: 0px 20px;
+}/*# sourceMappingURL=base.css.map */
