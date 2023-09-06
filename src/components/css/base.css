@@ -9,6 +9,10 @@
   height: 4rem;
   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4274509804);
 }
+.menu .menu-login {
+  display: flex;
+  gap: 10px;
+}
 
 .div-search {
   height: 4rem;
@@ -75,4 +79,31 @@
 }
 .card .comments .comment-button i {
   margin-right: 5px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.login-container form button {
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.login-container form button:hover {
+  background: none;
+  color: #000;
 }/*# sourceMappingURL=base.css.map */
